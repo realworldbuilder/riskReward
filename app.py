@@ -8,9 +8,6 @@ def calculate_reward_risk(entry_price, profit_target, stop_loss):
 
 st.title("Reward/Risk Ratio Calculator")
 
-logo_path = "for_preferred_patron.png"
-st.image(logo_path, use_column_width=True)
-
 entry_price = st.number_input("Enter the entry price", value=237.65, step=0.01)
 profit_target = st.number_input("Enter the profit target", value=275.00, step=0.01)
 stop_loss = st.number_input("Enter the stop loss", value=210.00, step=0.01)
